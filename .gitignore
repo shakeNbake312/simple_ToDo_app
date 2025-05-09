@@ -2,6 +2,11 @@
 .env*.local
 .env
 
+#Jupiter Lab checkpoints
+.ipynb_checkpoints
+
 # misc
 .DS_Store
-.ipynb_checkpoints
+
+# Python cache
+__pycache__
