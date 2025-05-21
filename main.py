@@ -14,7 +14,7 @@ import config
 app = FastAPI()
 
 # router: comment out next line till create it
-# app.include_router(todos.router)
+app.include_router(todos.router)
 
 
 #origins = [
