@@ -7,3 +7,6 @@
 # 3) Un-ignore (i.e. include) only the following subfolders
 !/001-fastapi-backend/
 !/002-nextjs-frontend/
+
+# misc
+.DS_Store
