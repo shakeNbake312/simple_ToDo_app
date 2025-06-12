@@ -21,6 +21,7 @@ app.include_router(todos.router)
 #    "http://localhost:3000",
 #    "https://todo-frontend-khaki.vercel.app/",
 #]
+origins = ["*"]
 
 # CORS configuration, needed for frontend development
 app.add_middleware(
